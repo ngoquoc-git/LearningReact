@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Planer from './Planer';
+import Calculator from './Calculator';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Planer />
+    <Calculator />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
